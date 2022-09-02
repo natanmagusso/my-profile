@@ -1,4 +1,9 @@
 {
+  "homepage": "https://yourgithubname.github.io/your-app-name",
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+  },
   "name": "my-profile",
   "version": "0.1.0",
   "private": true,
@@ -40,10 +45,5 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  },
-  "homepage": "https://natanmagusso.github.io/my-profile",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-  },
+  }
 }
