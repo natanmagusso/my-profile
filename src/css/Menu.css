@@ -1,9 +1,6 @@
 a.hover_bottom_menu:hover {
     color: #EA0035 !important;
-}
-
-.hover_img:hover {
-    fill: #EA0035 !important;
+    border-bottom: solid 0.5px #EA0035 !important;
 }
 
 .bi {
